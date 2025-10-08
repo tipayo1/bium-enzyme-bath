@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tipayo1.github.io/bium-enzyme-bath/sitemap.xml
