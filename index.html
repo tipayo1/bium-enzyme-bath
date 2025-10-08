@@ -3,10 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="비움 효소욕 - 발효 쌀겨를 이용한 자연 효소욕 전문점. 혈액순환 개선, 독소배출, 면역력 증진">
-    <title>비움 효소욕 - 자연의 힘으로 건강을 회복하다</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- SEO 최적화: 페이지 제목 (가장 중요!) -->
+    <title>비움 효소욕 | 목포 효소찜질 전문점 - 혈액순환, 독소배출, 면역력 증진</title>
+    
+    <!-- SEO 최적화: 페이지 설명 (120-160자) -->
+    <meta name="description" content="전남 목포시 위치한 비움 효소욕 전문점. 발효 쌀겨를 이용한 자연 효소욕으로 혈액순환 개선, 독소배출, 면역력 증진, 피부미용 효과. 1회 35,000원, 10회권 300,000원. 예약 문의 010-5631-2229">
+    
+    <!-- SEO 최적화: 키워드 -->
+    <meta name="keywords" content="효소욕, 효소찜질, 효소탕, 비움효소욕, 목포효소욕, 전남효소욕, 발효쌀겨, 혈액순환, 독소배출, 면역력증진, 피부미용, 자연치유, 아토피, 냉증, 다이어트">
+    
+    <!-- SEO 최적화: Open Graph (SNS 공유용) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="비움 효소욕 - 자연의 힘으로 건강을 회복하다">
+    <meta property="og:description" content="목포 소재 발효 쌀겨를 이용한 자연 효소욕 전문점. 혈액순환, 독소배출, 면역력 증진 효과">
+    <meta property="og:url" content="https://tipayo1.github.io/bium-enzyme-bath/">
+    <meta property="og:site_name" content="비움 효소욕">
+    <meta property="og:locale" content="ko_KR">
+    
+    <!-- 네이버/구글 소유권 확인 -->
     <meta name="naver-site-verification" content="9c04a6669ced77076278cc2919b3eaaee3b5df17" />
+    
+    <!-- SEO 최적화: 로봇 크롤링 허용 -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- SEO 최적화: 작성자 정보 -->
+    <meta name="author" content="비움 효소욕">
+    
+    <!-- 정규 URL -->
+    <link rel="canonical" href="https://tipayo1.github.io/bium-enzyme-bath/">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- SEO 최적화: 구조화된 데이터 (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "name": "비움 효소욕",
+      "description": "발효 쌀겨를 이용한 자연 효소욕 전문점",
+      "image": "https://tipayo1.github.io/bium-enzyme-bath/images/logo.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "원산중앙로 110 (연산동 1262-3)",
+        "addressLocality": "목포시",
+        "addressRegion": "전라남도",
+        "addressCountry": "KR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.7944",
+        "longitude": "126.3889"
+      },
+      "telephone": "+82-10-5631-2229",
+      "priceRange": "35,000원 ~ 300,000원",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "07:00",
+        "closes": "17:00"
+      },
+      "url": "https://tipayo1.github.io/bium-enzyme-bath/",
+      "sameAs": [
+        "https://map.naver.com",
+        "https://www.google.com/maps"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "3"
+      }
+    }
+    </script>
 </head>
 <body>
     <!-- 네비게이션 -->
@@ -23,15 +99,15 @@
                 <li><a href="#reviews" class="nav-link">리뷰</a></li>
                 <li><a href="#contact" class="nav-link">문의</a></li>
             </ul>
-            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="메뉴 열기">☰</button>
         </div>
     </nav>
 
     <!-- 메인 섹션 -->
-    <section id="home" class="hero">
+    <header id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h2 class="hero-title">비움 효소욕</h2>
+                <h1 class="hero-title">비움 효소욕</h1>
                 <p class="hero-subtitle">자연의 힘으로 건강을 회복하다</p>
                 <p class="hero-text">
                     발효 쌀겨의 자연열로 몸을 따뜻하게 하여<br>
@@ -43,201 +119,27 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
     <!-- 주요 효과 -->
-    <section class="benefits">
+    <section class="benefits" aria-labelledby="benefits-title">
         <div class="container">
-            <h2 class="section-title">효소욕의 주요 효과</h2>
+            <h2 id="benefits-title" class="section-title">효소욕의 주요 효과</h2>
             <div class="benefit-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">💓</div>
+                <article class="benefit-card">
+                    <div class="benefit-icon" aria-hidden="true">💓</div>
                     <h3>혈액순환 개선</h3>
                     <p>자연 발효열로 체온을 상승시켜 혈액순환을 촉진합니다</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">💧</div>
+                </article>
+                <article class="benefit-card">
+                    <div class="benefit-icon" aria-hidden="true">💧</div>
                     <h3>독소 배출</h3>
                     <p>15분 입욕으로 마라톤 15km에 해당하는 발한 효과</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🛡️</div>
+                </article>
+                <article class="benefit-card">
+                    <div class="benefit-icon" aria-hidden="true">🛡️</div>
                     <h3>면역력 증진</h3>
                     <p>체온 1℃ 상승시 면역력이 5배 증가합니다</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">✨</div>
-                    <h3>피부 개선</h3>
-                    <p>쌀겨의 비타민과 미네랄이 피부를 건강하게 만듭니다</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 효소욕이란? -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">효소욕이란?</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>자연 발효의 힘</h3>
-                    <p>
-                        효소욕은 쌀겨를 유익한 미생물로 발효시켜 만든 자연 온열 찜질입니다. 
-                        발효 과정에서 발생하는 60-70℃의 자연열이 체감온도 40℃의 편안한 온도로 
-                        몸을 감싸줍니다.
-                    </p>
-                    <h3>효소욕 과정</h3>
-                    <div class="process-steps">
-                        <div class="step">
-                            <span class="step-number">1</span>
-                            <div>
-                                <h4>쌀겨 발효</h4>
-                                <p>유익한 미생물에 의한 자연 발효 과정</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <span class="step-number">2</span>
-                            <div>
-                                <h4>자연열 발생</h4>
-                                <p>발효 과정에서 60-70℃의 자연열 생성</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <span class="step-number">3</span>
-                            <div>
-                                <h4>온열 찜질</h4>
-                                <p>체감온도 40℃의 편안한 온열 찜질</p>
-                            </div>
-                        </div>
-                        <div class="step">
-                            <span class="step-number">4</span>
-                            <div>
-                                <h4>효소 흡수</h4>
-                                <p>피부를 통한 효소와 영양성분 흡수</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 근거자료 -->
-    <section id="evidence" class="evidence">
-        <div class="container">
-            <h2 class="section-title">과학적 근거자료</h2>
-            <p class="section-subtitle">국제 학술지에 발표된 효소욕 관련 연구</p>
-            <div class="research-grid">
-                <div class="research-card">
-                    <h3>발효쌀겨의 콜레스테롤 저하 효과</h3>
-                    <p class="research-journal">PLoS ONE, 2021 (한국 연구)</p>
-                    <p class="research-desc">
-                        발효쌀겨가 혈중 콜레스테롤 수치를 효과적으로 개선시키는 것으로 확인되었습니다.
-                    </p>
-                    <a href="https://journals.plos.org/plosone/" target="_blank" class="btn btn-small">논문 보기</a>
-                </div>
-                <div class="research-card">
-                    <h3>쌀겨 발효물의 항염 효과</h3>
-                    <p class="research-journal">Journal of Oleo Science, 2021 (인도네시아)</p>
-                    <p class="research-desc">
-                        발효쌀겨의 항산화 및 항염증 효과가 과학적으로 입증되었습니다.
-                    </p>
-                    <a href="https://www.jstage.jst.go.jp/browse/jos" target="_blank" class="btn btn-small">논문 보기</a>
-                </div>
-                <div class="research-card">
-                    <h3>발효쌀겨의 비만 억제 효과</h3>
-                    <p class="research-journal">Scientific Reports, 2021 (일본 연구)</p>
-                    <p class="research-desc">
-                        발효쌀겨가 장내 미생물 환경을 개선하고 대사를 조절하여 비만을 억제합니다.
-                    </p>
-                    <a href="https://www.nature.com/srep/" target="_blank" class="btn btn-small">논문 보기</a>
-                </div>
-                <div class="research-card">
-                    <h3>효소욕의 생리학적 효과</h3>
-                    <p class="research-journal">일본 사우나학회지, 2024</p>
-                    <p class="research-desc">
-                        효소욕이 혈압 개선, 수면 질 향상, 통증 감소에 효과적임이 확인되었습니다.
-                    </p>
-                    <a href="https://jenzba.or.jp" target="_blank" class="btn btn-small">논문 보기</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 리뷰 -->
-    <section id="reviews" class="reviews">
-        <div class="container">
-            <h2 class="section-title">고객 후기</h2>
-            <div class="review-grid">
-                <div class="review-card">
-                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="review-text">
-                        "아토피로 고생했는데 효소욕 후 피부가 많이 좋아졌어요. 정말 신기해요!"
-                    </p>
-                    <p class="review-author">- 김○○님 (2024년 9월)</p>
-                </div>
-                <div class="review-card">
-                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="review-text">
-                        "냉증이 심했는데 몇 번 받고 나니 손발이 따뜻해졌습니다."
-                    </p>
-                    <p class="review-author">- 박○○님 (2024년 10월)</p>
-                </div>
-                <div class="review-card">
-                    <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                    <p class="review-text">
-                        "다이어트 효과도 있고 피부도 좋아져서 정기적으로 이용하고 있어요."
-                    </p>
-                    <p class="review-author">- 이○○님 (2024년 10월)</p>
-                </div>
-            </div>
-            <div class="review-links">
-                <p>더 많은 후기는 여기에서 확인하세요:</p>
-                <a href="https://map.naver.com" target="_blank" class="btn btn-outline">네이버 플레이스</a>
-                <a href="https://www.google.com/maps" target="_blank" class="btn btn-outline">구글 리뷰</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- 문의 -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">예약 및 문의</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="info-item">
-                        <h3>📞 전화 문의</h3>
-                        <p>010-5631-2229</p>
-                        <p class="note">※ 예약제로 운영됩니다</p>
-                    </div>
-                    <div class="info-item">
-                        <h3>📍 오시는 길</h3>
-                        <p>전남 목포시 (도로명)원산중앙로 110 (지번)연산동 1262-3 </p>
-                        <p class="note">주차 가능</p>
-                    </div>
-                    <div class="info-item">
-                        <h3>⏰ 영업시간</h3>
-                        <p>오전 7시 - 오후 5시</p>
-                        <p class="note">연중무휴</p>
-                    </div>
-                    <div class="info-item">
-                        <h3>💰 이용 요금</h3>
-                        <p>1회: 35,000원</p>
-                        <p>10회권: 300,000원</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 푸터 -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 비움 효소욕. All rights reserved.</p>
-            <p>Enzyme Bath & Wellness</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+                </article>
+                <article class="benefit-card">
+                    <div class="benefit-icon" aria
